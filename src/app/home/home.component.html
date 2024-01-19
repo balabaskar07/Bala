@@ -1,0 +1,36 @@
+
+
+<div style="background-image: url('../../assets/backgroundImg.jpg');height: 90vh;">
+<div class="row text-white d-flex justify-content-center py-4">
+<div class="col-auto ">
+    <img src="../../assets/logo.png" alt="">
+</div>
+<div class="col-auto  ">
+    <ul class="list-unstyled">
+        <li class="fs-4">Cripton</li>
+        <li class="">Tastes like home</li>
+    </ul>
+    
+</div>
+
+</div>
+<ul class=" d-flex text-white justify-content-center">
+    <li class=" p-3 mx-2 border-top ab">Home</li>
+    <li class=" p-3 mx-2 ab" routerLink="aboutus">About Us</li>
+    <li class=" p-3 mx-2 ab" routerLink="menu">Our Menu</li>
+    <li class=" p-3 mx-2 ab" routerLink="gallery">Gallery</li>
+    <li class=" p-3 mx-2 ab" routerLink="contact">Contact</li>
+</ul>
+<div class="d-flex justify-content-center">
+    <input type="text" class="form-control w-25" placeholder="Search" #val>
+    <button class="btn btn-light ms-1" (click)="nav(val.value)"><i class="bi bi-search"></i></button>
+</div>
+
+<h1 class="text-white text-center my-3" style="font-size: 5rem;">Food, Love, Happiness</h1>
+<h4 class="text-white text-center py-4">Using the freshest ingredients to give you the best food dining experience.</h4>
+<div class="text-center">
+    <button type="button" class="btn btn-light">OUR MENU</button>
+</div>
+</div>
+
+<app-body></app-body>

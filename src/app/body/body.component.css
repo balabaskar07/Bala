@@ -1,0 +1,15 @@
+.one {
+    background: linear-gradient(to bottom, rgba(31, 31, 31, 0.9), rgba(31, 31, 31, 0.9)),
+                url(https://img.zohostatic.com/sites/stock-images/images/zpstock-image-127.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+    margin: 0; /* Optional: removes default margin */
+    height: 80vh; /* Optional: makes sure the background covers the entire viewport height */
+  }
+  .two{
+    background-color: gray;
+  }
+  .three{
+    height: 80vh;
+  }

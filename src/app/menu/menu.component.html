@@ -1,0 +1,60 @@
+<app-nav></app-nav>
+<div class="text-center">
+    <h4 class="my-2">Our Menu</h4>
+    <h3  class="my-3">Here is a list of dishes you may see this week.</h3>
+    <p class="d-inline-flex text-center"><img src="../../assets/m1.png" alt=""></p>
+    <h1 class="mt-4">Breakfast</h1>
+    <div class="row container mx-auto justify-content-center mt-3">
+        <div class="col-4 mx-1 text-start my-2"  *ngFor="let a of arr">
+            <div class="d-flex fs-4">
+                <p class="me-auto"><b>{{a.a}}</b></p>
+                <p><b>{{a.b}}</b></p>
+
+            </div>
+            <p class="fs-5">Warm oven baked bread with homemade preserves and butter</p>
+        </div>
+    
+
+        <h1 class="mt-5">Lunch</h1>
+        <div class="row container mx-auto justify-content-center mt-3">
+            <div class="col-4 mx-1 text-start my-2"  *ngFor="let a of arr">
+                <div class="d-flex fs-4">
+                    <p class="me-auto"><b>{{a.a}}</b></p>
+                    <p><b>{{a.b}}</b></p>
+    
+                </div>
+                <p class="fs-5">Warm oven baked bread with homemade preserves and butter</p>
+            </div> 
+        </div>   
+        
+        <h1 class="mt-5">Tea</h1>
+        <div class="row container mx-auto justify-content-center mt-3">
+            <div class="col-4 mx-1 text-start my-2"  *ngFor="let a of arr1">
+                <div class="d-flex fs-4">
+                    <p class="me-auto"><b>{{a.a}}</b></p>
+                    <p><b>{{a.b}}</b></p>
+    
+                </div>
+                <!-- <p class="fs-5">Warm oven baked bread with homemade preserves and butter</p> -->
+            </div> 
+        </div>
+
+        <h1 class="mt-5">Dinner</h1>
+        <div class="row container mx-auto justify-content-center mt-3">
+            <div class="col-4 mx-1 text-start my-2"  *ngFor="let a of arr">
+                <div class="d-flex fs-4">
+                    <p class="me-auto"><b>{{a.a}}</b></p>
+                    <p><b>{{a.b}}</b></p>
+    
+                </div>
+                <p class="fs-5">Warm oven baked bread with homemade preserves and butter</p>
+            </div> 
+        </div>
+        
+    
+
+</div>
+</div>
+<app-add></app-add>
+
+

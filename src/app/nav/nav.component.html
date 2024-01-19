@@ -1,0 +1,24 @@
+<div class="d-flex container pt-3">
+    <div  class=" me-auto">
+        
+        <ul class="d-flex">
+            <li class="navbar-brand d-flex me-0" style="font-family: 'Courier New', Courier, monospace;" href="#">
+                <img src="../../assets/logo.png" alt="" width="30" height="24" class="me-1">
+                Cripton
+            </li>
+            <li routerLink="">Home</li>
+            <li routerLink="/aboutus">About Us</li>
+            <li routerLink="/menu">Our Menu</li>
+            <li routerLink="/gallery">Gallery</li>
+            <li routerLink="/contact">Contact</li>
+        </ul>
+
+    </div>
+    <div>
+        <form class="d-flex m-2 me-5 p-2">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" #val>
+            <button class="btn btn-outline-success" type="submit" (click)="c.navigateToHome(val.value)"><i class="bi bi-search"></i></button>
+          </form>
+
+    </div>
+</div>
